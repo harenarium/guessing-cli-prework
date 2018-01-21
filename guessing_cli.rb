@@ -10,7 +10,8 @@ def run_guessing_game
     if input.to_i == number
       puts "You guessed the correct number!"
       break
-    elsif guess > 0 && guess < 7
+    else
+    # elsif guess > 0 && guess < 7
       puts "The computer guessed #{number}."
       break
     end

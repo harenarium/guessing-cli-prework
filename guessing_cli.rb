@@ -9,11 +9,9 @@ def run_guessing_game
     # binding.pry
     if input.to_i == number
       puts "You guessed the correct number!"
-      break
     else
     # elsif guess > 0 && guess < 7
       puts "The computer guessed #{number}."
-      break
     end
     input = gets.chomp
   end

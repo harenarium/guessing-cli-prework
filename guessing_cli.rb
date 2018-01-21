@@ -8,12 +8,12 @@ def run_guessing_game
   while input !="exit"
     # binding.pry
     if input.to_i == number
-      return "You guessed the correct number!"
-      break
+      puts "You guessed the correct number!"
+      return
     else
     # elsif guess > 0 && guess < 7
-      print "The computer guessed #{number}."
-      break
+      puts "The computer guessed #{number}."
+      return
     end
   end
   puts "Goodbye!"

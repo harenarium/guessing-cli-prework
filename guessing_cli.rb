@@ -8,7 +8,7 @@ def run_guessing_game
     number = rand(1..6)
     # binding.pry
     if input.to_i == number
-      puts "You guessed the correct number!"
+      return "You guessed the correct number!"
       break
     else
     # elsif guess > 0 && guess < 7
